@@ -2,5 +2,10 @@ SL VM Hardcoded
 
 az deployment group create -g ODL-az-400-2071575 -f slvmhardcoded.json 
 
+az vm list --output table
+
+az vm delete -g ODL-az-400-2071575 -n Bipeen-vm --yes --force-deletion yes
+
+
 
 <img width="506" height="182" alt="image" src="https://github.com/user-attachments/assets/6e158e8f-5a1b-4ded-a172-0a742a6c6d16" />
